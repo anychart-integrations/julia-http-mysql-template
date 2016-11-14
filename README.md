@@ -62,13 +62,13 @@ Your workspace should look like:
 julia-http-mysql-template/
     app.js                  # main Julia code
     database_backup.sql     # MySQL database dump
-    index.html		          # html template
+    index.html              # html template
     LICENSE
     README.md
 ```
 
 ## Technologies
-Language - [Julia](https://www.r-project.org/)<br />
+Language - [Julia](http://julialang.org/)<br />
 Web server - [HttpServer.jl](https://github.com/JuliaWeb/HttpServer.jl)<br />
 Html template - [Mustache](https://github.com/jverzani/Mustache.jl)<br />
 Database - [MySQL](https://www.mysql.com/)<br />
