@@ -54,7 +54,7 @@ Run application:
 $ julia app.jl
 ```
 
-Open browser at http://localhost:8000/.
+Open browser at http://localhost:8000/
 
 ## Workspace
 Your workspace should look like:
