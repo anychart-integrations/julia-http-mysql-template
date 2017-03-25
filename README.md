@@ -1,6 +1,5 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
-Julia basic template
-=========================
+# ulia basic template
 
 This example shows how to use Anychart library with the Julia programming language and MySQL database.
 
