@@ -52,6 +52,7 @@ julia> quit()
 Run application:
 ```
 $ julia app.jl
+# Make sure your current directory is `julia-http-mysql-template` so app.js could find template file index.html
 ```
 
 Open browser at http://localhost:8000/
