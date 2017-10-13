@@ -45,6 +45,7 @@ julia> Pkg.update()
 julia> Pkg.add("HttpServer")
 julia> Pkg.add("Mustache")
 julia> Pkg.add("MySQL")
+julia> Pkg.add("JSON")
 julia> quit()
 ```
 
