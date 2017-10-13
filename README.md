@@ -49,7 +49,7 @@ julia> Pkg.add("JSON")
 julia> quit()
 ```
 
-Run application, make sure your current directory is `julia-http-mysql-template` so app.js could find template file index.html:
+Run application, make sure your current directory is `julia-http-mysql-template` so app.jl could find template file index.html:
 ```
 $ julia app.jl
 ```
@@ -60,7 +60,7 @@ Open browser at http://localhost:8000/
 Your workspace should look like:
 ```
 julia-http-mysql-template/
-    app.js                  # main Julia code
+    app.jl                  # main Julia code
     database_backup.sql     # MySQL database dump
     index.html              # html template
     LICENSE
