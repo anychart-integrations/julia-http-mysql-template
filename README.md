@@ -11,7 +11,7 @@ MySQL installed and running, if not please check out [MySQL download page](https
 To check your installations, run the following command in the command line:
 ```
 $ julia -v
-julia version 0.5.0 # sample output
+julia version 0.6.0 # sample output
 
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6. # sample output
