@@ -11,7 +11,7 @@ MySQL installed and running, if not please check out [MySQL download page](https
 To check your installations, run the following command in the command line:
 ```
 $ julia -v
-julia version 0.5.0 # sample output
+julia version 0.6.0 # sample output
 
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6. # sample output
@@ -45,10 +45,11 @@ julia> Pkg.update()
 julia> Pkg.add("HttpServer")
 julia> Pkg.add("Mustache")
 julia> Pkg.add("MySQL")
+julia> Pkg.add("JSON")
 julia> quit()
 ```
 
-Run application:
+Run application, make sure your current directory is `julia-http-mysql-template` so app.jl could find template file index.html:
 ```
 $ julia app.jl
 ```
@@ -59,7 +60,7 @@ Open browser at http://localhost:8000/
 Your workspace should look like:
 ```
 julia-http-mysql-template/
-    app.js                  # main Julia code
+    app.jl                  # main Julia code
     database_backup.sql     # MySQL database dump
     index.html              # html template
     LICENSE
